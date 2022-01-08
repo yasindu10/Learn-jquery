@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>How to link jQuery</title>
+	<!-- jQuery link -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	
+<script>
+// jquery
+
+// show
+$(document).ready(function() {
+	$("#show").click(function() {
+		$("p").show();
+	});
+});
+
+// hide
+$(document).ready(function() {
+	$("#hide").click(function() {
+		$("p").hide();
+	});
+});
+
+
+</script>
+
+
+
+<p>jQuery is javascript library</p>
+
+
+<button id="show" type="button">show</button>
+<button id="hide" type="button">hide</button>
+
+
+</body>
+</html>
