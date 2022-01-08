@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Show to fade toggle</title>
+	<!-- jQuery link -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	
+<script>
+// jquery
+
+// show
+$(document).ready(function() {
+	$("#show" /*id*/).click(function() {
+		$("p" /*tag*/).toggle();
+	});
+});
+
+
+</script>
+
+
+
+<p>jQuery is javascript library</p>
+
+
+<button id="show" type="button">Toggle</button>
+
+
+</body>
+</html>
