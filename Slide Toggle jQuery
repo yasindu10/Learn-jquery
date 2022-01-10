@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Slide Toggle</title>
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- css -->
+	<style>
+		
+		.mainBlog {
+			width: 500px !important;
+			background-color: #1224;
+			color: white;
+			border-radius: 5px;
+			border:1px solid white;
+			padding:10px;
+			text-align:center;
+			font-family:verdana;
+			cursor:pointer;
+		}
+
+		.blog {
+			display: none;
+		}
+
+	</style>
+</head>
+<body>
+
+
+<script>
+
+$(document).ready(function() {
+ 
+   $(".mainBlog").click(function() {
+   		$("#blog").slideToggle();
+   });
+
+});
+
+
+</script>
+
+	
+
+<div class="mainBlog">Hellow</div>
+
+<div class="blog mainBlog" id="blog">World</div>
+
+<br><br>
+</body>
+</html>
